@@ -1,48 +1,52 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class Simple2DCharacterController : MonoBehaviour
 {
     public float moveSpeed = 5f; // Movement speed
-    public float jumpForce = 5f; // Jumping force
-    public LayerMask groundLayer; // Layer for ground detection
+    public float jumpForce = 5f; // Jump force
 
-    private Rigidbody rb;
+    private Rigidbody2D rb;
     private bool isGrounded;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
         Move();
-        CheckGround();
 
-        if (Input.GetAxis("Vertical") * jumpForce > 0 && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             Jump();
         }
     }
 
-    // Move the player left/right
-    private void Move()
+    void Move()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        Vector3 movement = new Vector3(horizontal, 0, 0) * moveSpeed * Time.deltaTime;
-        transform.Translate(movement);
+        float move = Input.GetAxis("Horizontal") * moveSpeed;
+        rb.linearVelocity = new Vector2(move, rb.linearVelocity.y);
     }
 
-    // Jump logic
-    private void Jump()
+    void Jump()
     {
-        rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
     }
 
-    // Check if the player is on the ground
-    private void CheckGround()
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        // Check if the player's feet are touching the ground layer
-        isGrounded = Physics.Raycast(transform.position, Vector3.down, 1.1f, groundLayer);
+        if (collision.collider.CompareTag("Ground"))
+        {
+            isGrounded = true;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Ground"))
+        {
+            isGrounded = false;
+        }
     }
 }
