@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\JCoding\\RPG-Game-Project\\RPG-Game-Project\\",
+  "WorkspaceRootPath": "C:\\Users\\Rosem\\RPG-Game-Project\\RPG-Game-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F381EEF7-3976-599C-B86B-12D23E4970E6}|Assembly-CSharp.csproj|e:\\jcoding\\rpg-game-project\\rpg-game-project\\assets\\scripts\\player controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F381EEF7-3976-599C-B86B-12D23E4970E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rosem\\RPG-Game-Project\\RPG-Game-Project\\Assets\\Scripts\\EnemyBehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnemyBehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rosem\\RPG-Game-Project\\RPG-Game-Project\\Assets\\Scripts\\Player Controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Player Controller.cs",
-              "DocumentMoniker": "E:\\JCoding\\RPG-Game-Project\\RPG-Game-Project\\Assets\\Scripts\\Player Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Rosem\\RPG-Game-Project\\RPG-Game-Project\\Assets\\Scripts\\Player Controller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Controller.cs",
-              "ToolTip": "E:\\JCoding\\RPG-Game-Project\\RPG-Game-Project\\Assets\\Scripts\\Player Controller.cs",
+              "ToolTip": "C:\\Users\\Rosem\\RPG-Game-Project\\RPG-Game-Project\\Assets\\Scripts\\Player Controller.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player Controller.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwA0AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T21:21:36.932Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\Rosem\\RPG-Game-Project\\RPG-Game-Project\\Assets\\Scripts\\EnemyBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBehavior.cs",
+              "ToolTip": "C:\\Users\\Rosem\\RPG-Game-Project\\RPG-Game-Project\\Assets\\Scripts\\EnemyBehavior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T20:45:12.425Z",
               "EditorCaption": ""
             }
           ]
