@@ -1,0 +1,38 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\JCoding\\RPG-Game-Project\\RPG-Game-Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F381EEF7-3976-599C-B86B-12D23E4970E6}|Assembly-CSharp.csproj|e:\\jcoding\\rpg-game-project\\rpg-game-project\\assets\\scripts\\player controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F381EEF7-3976-599C-B86B-12D23E4970E6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player Controller.cs",
+              "DocumentMoniker": "E:\\JCoding\\RPG-Game-Project\\RPG-Game-Project\\Assets\\Scripts\\Player Controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Controller.cs",
+              "ToolTip": "E:\\JCoding\\RPG-Game-Project\\RPG-Game-Project\\Assets\\Scripts\\Player Controller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T21:21:36.932Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
