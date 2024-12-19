@@ -1,36 +1,48 @@
-using JetBrains.Annotations;
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
+    public float moveSpeed = 5f; // Movement speed
+    public float jumpForce = 5f; // Jumping force
+    public LayerMask groundLayer; // Layer for ground detection
 
-    public float speed = 5f;
-    public float jumpHeight = 50f;
-    bool onGround = true;
+    private Rigidbody rb;
+    private bool isGrounded;
 
-    void OnCollisionEnter(Collision collision)
+    void Start()
     {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            onGround = true;
-        }
+        rb = GetComponent<Rigidbody>();
     }
 
     void Update()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
-        float jump = 0;
+        Move();
+        CheckGround();
 
-        if (onGround)
+        if (Input.GetAxis("Vertical") * jumpForce > 0 && isGrounded)
         {
-            jump = jumpHeight;
+            Jump();
         }
+    }
 
-
-        Vector3 movement = new Vector3(horizontal, jump, 0) * speed * Time.deltaTime;
-
+    // Move the player left/right
+    private void Move()
+    {
+        float horizontal = Input.GetAxis("Horizontal");
+        Vector3 movement = new Vector3(horizontal, 0, 0) * moveSpeed * Time.deltaTime;
         transform.Translate(movement);
     }
-}
 
+    // Jump logic
+    private void Jump()
+    {
+        rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+    }
+
+    // Check if the player is on the ground
+    private void CheckGround()
+    {
+        // Check if the player's feet are touching the ground layer
+        isGrounded = Physics.Raycast(transform.position, Vector3.down, 1.1f, groundLayer);
+    }
+}
