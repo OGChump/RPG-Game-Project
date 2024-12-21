@@ -31,7 +31,8 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T21:21:36.932Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -41,7 +42,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBehavior.cs",
               "ToolTip": "C:\\Users\\Rosem\\RPG-Game-Project\\RPG-Game-Project\\Assets\\Scripts\\EnemyBehavior.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyBehavior.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T20:45:12.425Z",
               "EditorCaption": ""
