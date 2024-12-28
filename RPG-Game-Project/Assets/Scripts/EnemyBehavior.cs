@@ -68,6 +68,12 @@ public class EnemyBehavior : MonoBehaviour
         //Vector2.MoveTowards() ensures the mvoement is smooth
     }
 
+    void AttackPlayer()
+    {
+        Debug.Log("ATTACK");
+        //Checks for attack (I'll have to change this one later)
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
         //This method is triggered when another object enters the enemy's detection zone
     {
@@ -76,6 +82,7 @@ public class EnemyBehavior : MonoBehaviour
         {
             isChasing = true;
             player = collision.transform;
+            AttackPlayer();
             //Set isChasing to true to make the enemy start chasing the player when in range
             //Stoe the player's position in the player vatiable for the Chaseplayer
         }
@@ -88,9 +95,7 @@ public class EnemyBehavior : MonoBehaviour
             //If the object leaves the detection zone
         {
             isChasing = false;
-            player = null;
             //Set isChasing to false, indicating that the enemy should stop chasing the player
-            //Clear the player's position since the player is no longer within the rangeSSSS
         }
     }
 }
