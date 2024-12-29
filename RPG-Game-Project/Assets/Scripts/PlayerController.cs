@@ -61,7 +61,7 @@ public class PlayerMovement : MonoBehaviour // Allows use of all UnityEngine fea
     private void FixedUpdate()
     {
         // Updates the Rigidbody's velocity for smooth movement
-        rb.velocity = new Vector2(moveSpeed * moveDirection, rb.velocity.y);
+        rb.linearVelocity = new Vector2(moveSpeed * moveDirection, rb.linearVelocity.y);
 
         if (isJumping)
         {
