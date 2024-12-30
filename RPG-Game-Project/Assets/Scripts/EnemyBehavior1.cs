@@ -9,16 +9,25 @@ public class EnemyBehavior1 : MonoBehaviour
     public Transform wayPoint2;
 
     private Transform target;
+    private Transform player;
     private bool facingRight = true;
+    private bool isChasing = false;
 
-    private void start()
+    private void Start()
     {
         target = wayPoint1;
     }
 
-    private void update()
+    private void Update()
     {
-        Patrol();
+        if (isChasing && player != null)
+        {
+            chasePlayer();
+        }
+        else
+        {
+            Patrol();
+        }
     }
 
     private void Patrol()
@@ -33,6 +42,35 @@ public class EnemyBehavior1 : MonoBehaviour
             target = target == wayPoint1 ? wayPoint2 : wayPoint1;
 
             flip();
+        }
+    }
+
+    private void chasePlayer()
+    {
+        transform.position = Vector2.MoveTowards(transform.position, player.position, movespeed * Time.deltaTime);
+
+        if ((player.position.x > transform.position.x && !facingRight) ||
+        (player.position.x < transform.position.x && facingRight))
+        {
+            flip();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            isChasing = true;
+            player = collision.transform;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            isChasing = false;
+            player = null;
         }
     }
 
