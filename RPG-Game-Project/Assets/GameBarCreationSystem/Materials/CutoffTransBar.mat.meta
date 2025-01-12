@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 31f4cdb520e1caa4f877496151bf4eb0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2806
+  packageName: Game Bar Creation System
+  packageVersion: 1.1
+  assetPath: Assets/GameBarCreationSystem/Materials/CutoffTransBar.mat
+  uploadId: 6722

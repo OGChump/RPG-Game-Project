@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 92a6400680d8e0f4398d2df5fc231b4d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2806
+  packageName: Game Bar Creation System
+  packageVersion: 1.1
+  assetPath: Assets/GameBarCreationSystem/Scripts/ManaSystem.cs
+  uploadId: 6722

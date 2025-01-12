@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 10daa0c3641a218449c3174d1999b52e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2806
+  packageName: Game Bar Creation System
+  packageVersion: 1.1
+  assetPath: Assets/GameBarCreationSystem/Scripts/GUIController.cs
+  uploadId: 6722

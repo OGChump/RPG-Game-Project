@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2cb6b53477a5f384a8992856027ecf19
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2806
+  packageName: Game Bar Creation System
+  packageVersion: 1.1
+  assetPath: Assets/GameBarCreationSystem/Scripts/HealthSystem.cs
+  uploadId: 6722

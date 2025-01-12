@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fa74ecc27b9d94b4294344ba9121a132
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2806
+  packageName: Game Bar Creation System
+  packageVersion: 1.1
+  assetPath: Assets/GameBarCreationSystem/Scripts/GlobeBarSystem.cs
+  uploadId: 6722

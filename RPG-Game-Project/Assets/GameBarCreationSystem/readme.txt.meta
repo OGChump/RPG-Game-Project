@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: d95c4e2db58c5c74890e55c8758fc656
+labels:
+- Oriented
+- Object
+- Base
+- Code
+- Utility
+- Level
+- Experience
+- Mana
+- Health
+- Customize
+- Customization
+- Bar
+- Game
+- Simple
+- Visual
+- Incriment
+- GUI
+- System
+- GameBar
+- Scroll
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2806
+  packageName: Game Bar Creation System
+  packageVersion: 1.1
+  assetPath: Assets/GameBarCreationSystem/readme.txt
+  uploadId: 6722

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a3bd79602c6abe448a271653e9b66ce6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 2806
+  packageName: Game Bar Creation System
+  packageVersion: 1.1
+  assetPath: Assets/GameBarCreationSystem/Scripts/ExperienceSystem.cs
+  uploadId: 6722
